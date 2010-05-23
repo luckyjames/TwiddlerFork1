@@ -12,11 +12,6 @@
     <AssemblyName>Twiddler.Tests</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <OldToolsVersion>3.5</OldToolsVersion>
-    <UpgradeBackupLocation />
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -93,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\AuthorizeCommandTests.cs" />
+    <Compile Include="Commands\DeauthorizeCommandTests.cs" />
     <Compile Include="Models\TimelineTests.cs" />
     <Compile Include="New.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
